@@ -1,3 +1,8 @@
+$.getJSON('https://ipinfo.io/json', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
+
+
 $(".mobile-menu").click(function(){
     
     $('#header nav ul').toggleClass('show');
